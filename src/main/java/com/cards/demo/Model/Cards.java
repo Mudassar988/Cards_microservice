@@ -10,7 +10,7 @@ public class Cards {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private   int cardId;
+    private   long cardId;
     private  int customerId;
     private  long cardNumber;
     private String cardName;
